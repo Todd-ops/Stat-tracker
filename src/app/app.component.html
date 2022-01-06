@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>{{ name }}</h1>
+  <hr>
+
+  <div class="player-tile">
+    <app-player-tile *ngFor="let p of cards" [player]="p"> </app-player-tile>
+  </div>
+</div>

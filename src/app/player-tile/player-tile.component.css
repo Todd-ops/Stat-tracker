@@ -1,0 +1,13 @@
+.card-body h6{
+  color: white;
+  text-align: center;
+}
+
+.card-body img { 
+  cursor: pointer; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto 
+}
+
